@@ -243,7 +243,7 @@ $user = Yii::$app->user;
                     'action' => Url::to('@client/index'),
                 ],
                 'model' => new ClientSearch(),
-                'attribute' => 'login_email_in',
+                'attribute' => 'login_ilike',
                 'buttonColor' => SmallBox::COLOR_FUCHSIA,
             ]) ?>
             <?php $box->endBody() ?>
